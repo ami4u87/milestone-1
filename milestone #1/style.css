@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #3d0f0f;
+    padding: 20px;
+    text-align: center;
+
+}
+
+main {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #470808;
+    text-align: center;
+}
+
+section {
+    background-color: #cfcef5;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(100, 141, 216, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li ul {
+    margin-left: 20px;
+}
+
+#toggle-skills, #toggle-experience {
+    background-color: #4c4f50;
+    color: #fff;
+    padding: 10px 20px;
+    border: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#toggle-skills:hover, #toggle-experience:hover {
+    background-color: #042705;
+}
